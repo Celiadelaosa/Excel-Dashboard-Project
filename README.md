@@ -3,7 +3,7 @@
 ## Análisis de ventas y beneficios de firmas de moda
 
 ## 📝 Descripción
-Este proyecto realiza un análisis de las ventas y beneficios de firmas de moda en función de las características de los productos y de los consumidores. 
+Este proyecto realiza un análisis de las ventas y beneficios de firmas de moda en función de las características de los productos y lo relaciona con el impacto en los consumidores. 
 
 El objetivo es identificar tendencias y patrones para entender el estado del mercado en la actualidad y poder tomar decisiones que aumenten los beneficios en un futuro. 
 
@@ -21,6 +21,20 @@ Este proyecto fue desarrollado en **Microsoft Excel**.
 - Se recomienda habilitar las macros al abrir el archivo para ver el dashboard completo y las funcionalidades dinámicas.
 
 
+## 🧹 Transformación y limpieza de los datos
+Los datos se obtuvieron desde la plataforma Kaggle (mock_fashion_data_uk_us). Durante el proceso de preparación se llevaron a cabo las siguientes acciones:
+- Selección de un subconjunto del conjunto de datos original para optimizar el rendimiento y facilitar el análisis.
+- Conversión del archivo original (.csv) a formato de tabla en Excel.
+- Eliminación de duplicados según el identificador único de producto.
+- Ajuste del formato de precios, corrigiendo el número de decimales y los separadores.
+- Creación de una columna adicional para calcular el beneficio total de cada producto (productos vendidos x precio unitario).
+- Exclusión de variables no relevantes para el análisis principal (como el color del producto y las tallas disponibles).
+
+## 📈 Análisis descriptivo de los datos
+El conjunto de datos recopila información sobre artículos de moda y accesorios pertenecientes a distintas firmas de moda reconocidas (Ralph Lauren, Alexander McQueen, Burberry, entre otras). Las variables analizadas abarcan tanto características cualitativas como cuantitativas:
+- Variables cualitativas: firma, estilo, categoría, temporada, valoración de clientes, valoración en redes sociales, feedback general y franjas temporales con mayor número de ventas.
+- Variables cuantitativas: precio, número de ventas.
+  
 ## ✅ Resultados y Conclusiones
 - Se identifica un aumento en las ventas durante las etapas vacacionales y los fines de semana. A nivel estacional, este incremento se aprecia sobre todo en verano, seguido de la temporada otoño-invierno. Los beneficios muestran patrones similares, con leves variaciones. 
 
@@ -36,7 +50,7 @@ Este proyecto fue desarrollado en **Microsoft Excel**.
 ## 🔄 Próximos pasos
 - Refinar el modelo predictivo aumentando el volumen de datos para analizar la periodicidad de sucesos como el aumento de ventas/beneficios de un determinado estilo o producto en momentos concretos.
 
--Evaluar el presupuesto destinado a campañas de marketing con influencers y revistas, dado que los resultados actuales no reflejan diferencias significativas en ventas y beneficios.
+- Evaluar el presupuesto destinado a campañas de marketing con influencers y revistas, dado que los resultados actuales no reflejan diferencias significativas en ventas y beneficios.
 
 ## 👩‍💻 Autores 
 - Celia de la Osa 
