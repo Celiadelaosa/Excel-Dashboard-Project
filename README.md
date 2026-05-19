@@ -1,57 +1,95 @@
-# 📊 Proyecto: Dashboard en Excel
+🌐 Available languages:
 
-## Análisis de ventas y beneficios de firmas de moda
+- 🇬🇧 English: README.md
+- 🇪🇸 Español: [README_ES.md](README_ES.md)
 
-## 📝 Descripción
-Este proyecto realiza un análisis de las ventas y beneficios de firmas de moda en función de las características de los productos y lo relaciona con el impacto en los consumidores. 
+# 📊 Fashion Sales & Profit Dashboard (Excel)
 
-El objetivo es identificar tendencias y patrones para entender el estado del mercado en la actualidad y poder tomar decisiones que aumenten los beneficios en un futuro. 
+## 📌 Project Overview
 
-En este análisis se emplean técnicas de modelado estadístico.
+This project analyzes sales and profit performance across fashion brands based on product characteristics and consumer behavior.
 
-## 📁 Estructura del Proyecto
-- `Dashboard_Ventas.xlsm`: archivo principal con el dashboard interactivo.
-- `README.md`: archivo con la descripción y documentación del proyecto.
+The goal is to identify trends and patterns in order to understand current market dynamics and support data-driven decisions that can increase profitability.
 
+The analysis is carried out using Excel, including statistical and exploratory techniques.
 
-## 🛠 Instalación y requisitos
-Este proyecto fue desarrollado en **Microsoft Excel**.
+---
 
-- Requiere abrir el archivo `.xlsm` (habilitado para macros).
-- Se recomienda habilitar las macros al abrir el archivo para ver el dashboard completo y las funcionalidades dinámicas.
+## 🎯 Project Objectives
 
+- Analyze sales and profit patterns across fashion brands
+- Identify trends by season, time, and consumer segments
+- Understand the impact of product characteristics on performance
+- Support data-driven decision-making for business optimization
 
-## 🧹 Transformación y limpieza de los datos
-Los datos se obtuvieron desde la plataforma Kaggle (mock_fashion_data_uk_us). Durante el proceso de preparación se llevaron a cabo las siguientes acciones:
-- Selección de un subconjunto del conjunto de datos original para optimizar el rendimiento y facilitar el análisis.
-- Conversión del archivo original (.csv) a formato de tabla en Excel.
-- Eliminación de duplicados según el identificador único de producto.
-- Ajuste del formato de precios, corrigiendo el número de decimales y los separadores.
-- Creación de una columna adicional para calcular el beneficio total de cada producto (productos vendidos x precio unitario).
-- Exclusión de variables no relevantes para el análisis principal (como el color del producto y las tallas disponibles).
+---
 
-## 📈 Análisis descriptivo de los datos
-El conjunto de datos recopila información sobre artículos de moda y accesorios pertenecientes a distintas firmas de moda reconocidas (Ralph Lauren, Alexander McQueen, Burberry, entre otras). Las variables analizadas abarcan tanto características cualitativas como cuantitativas:
-- Variables cualitativas: firma, estilo, categoría, temporada, valoración de clientes, valoración en redes sociales, feedback general y franjas temporales con mayor número de ventas.
-- Variables cuantitativas: precio, número de ventas.
-  
-## ✅ Resultados y Conclusiones
-- Se identifica un aumento en las ventas durante las etapas vacacionales y los fines de semana. A nivel estacional, este incremento se aprecia sobre todo en verano, seguido de la temporada otoño-invierno. Los beneficios muestran patrones similares, con leves variaciones. 
+## 📁 Repository Structure
 
-- El análisis refleja fluctuaciones notables en los momentos del día y estaciones con mayor número de ventas y beneficios, según la edad del consumidor.
+- `Dashboard_Ventas.xlsm`: Main Excel file containing the interactive dashboard
+- `README.md`: Project documentation
 
-- Dependiendo de la firma, se observan productos que lideran claramente en ventas y beneficios, aunque el impacto negativo no es especialmente significativo.
+---
 
-- Las valoraciones más variables son las de los consumidores, mientras que el feedback general y opiniones en redes sociales se mantienen relativamente estables.
+## 🛠 Tools & Requirements
 
-- La publicidad a cargo de influencers y revistas no muestra un impacto determinante en el número de ventas y beneficios. 
+- Microsoft Excel (.xlsm file with macros enabled)
+- Macros must be enabled to access full dashboard functionality
 
+---
 
-## 🔄 Próximos pasos
-- Refinar el modelo predictivo aumentando el volumen de datos para analizar la periodicidad de sucesos como el aumento de ventas/beneficios de un determinado estilo o producto en momentos concretos.
+## 🧹 Data Cleaning & Transformation
 
-- Evaluar el presupuesto destinado a campañas de marketing con influencers y revistas, dado que los resultados actuales no reflejan diferencias significativas en ventas y beneficios.
+The dataset was sourced from Kaggle (mock_fashion_data_uk_us). The following preprocessing steps were performed:
 
-## 👩‍💻 Autores 
-- Celia de la Osa 
+- Selected a subset of the original dataset to improve performance and focus analysis
+- Converted raw CSV data into Excel table format
+- Removed duplicates based on unique product identifiers
+- Standardized price formatting (decimal precision and separators)
+- Created a new feature to calculate total profit (units sold × unit price)
+- Removed non-relevant variables such as product color and size variations
 
+---
+
+## 📊 Data Overview
+
+The dataset contains information about fashion items and accessories from well-known brands such as Ralph Lauren, Alexander McQueen, and Burberry.
+
+### Variables analyzed:
+
+**Qualitative variables:**
+- Brand
+- Style
+- Category
+- Season
+- Customer ratings
+- Social media ratings
+- General feedback
+- Peak sales time periods
+
+**Quantitative variables:**
+- Price
+- Number of sales
+
+---
+
+## 📈 Key Findings
+
+- Sales increase during holiday periods and weekends, with the strongest seasonal peak in summer, followed by autumn and winter. Profit trends follow a similar pattern with minor variations.
+- Sales and profit fluctuate depending on time of day, season, and consumer age group.
+- Some brands consistently outperform others in terms of sales and profitability, although underperformance is not significantly negative.
+- Customer ratings show higher variability, while social media feedback remains relatively stable.
+- Influencer and magazine advertising does not appear to have a significant impact on sales or profit.
+
+---
+
+## 🔄 Future Work
+
+- Improve predictive modeling by increasing dataset size to better capture seasonal and behavioral patterns in sales and profit
+- Reassess marketing investment in influencers and magazines, as current results do not show a strong correlation with performance
+
+---
+
+## 👩‍💻 Author
+
+Celia de la Osa
